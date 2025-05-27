@@ -27,6 +27,6 @@
       "@/*": ["./*"] // Example: import Button from '@/components/Button'
     }
   },
-  "include": ["index.tsx", "App.tsx", "types.ts", "constants.ts", "components", "pages", "contexts", "vite.config.ts"],
+  "include": ["src/index.tsx", "App.tsx", "types.ts", "constants.ts", "components", "pages", "contexts", "vite.config.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
